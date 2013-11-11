@@ -19,5 +19,5 @@ func main() {
 	}
 
 	sum = (<- c) + (<- c) - (<- c)
-	fmt.Println("Ans: %d", sum)
+	fmt.Println("Ans:", sum)
 }
